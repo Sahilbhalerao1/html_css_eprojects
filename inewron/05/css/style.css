@@ -1,0 +1,120 @@
+body{
+    background-image: url('../images/bg.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0 4%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+}
+
+
+
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+nav .nav-menu-icon{
+    display: none;
+}
+
+nav .nav-items{
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.brand-image{
+    flex:  1;
+    margin: auto;
+
+}
+
+.nav-logo{
+    display: block;
+}
+
+.brand-image img{
+    height: 140px;
+}
+.nav-button{
+    background-color: #E03BBB;
+    border: none;
+    padding: 3px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 30vh;
+}
+
+.col{
+    /* display: flex; */
+    flex: 0.5;
+    min-height: 100%;
+}
+.col-2{
+    overflow: hidden;
+}
+.phone{
+    position: absolute;
+    bottom: 0;
+    right: 0.8%;
+    height: 80%;
+    width: 35%; 
+}
+
+.col-1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+}
+.col-1 p{
+    font-size: 15px;
+    position: relative;
+    top: 70%;
+    
+}
+
+.col-1 h1{
+    font-size: 50px;
+    margin: 10px 0;
+    height: 50%;
+    position: relative;
+    top: 70%;
+
+}
+.google-play-img{
+    height: 50px;
+    width: 30%; 
+    top: 50%;
+    position: relative;
+}
+@media screen and(max-width: 1230px) {
+    .phone-img{
+        height: 60%;
+    }
+    .nav-items {
+        display: none;
+    }
+}
+nav .nav-menu-icon i{
+    display: block;
+    margin: auto;
+}
+nav .nav-menu-icon i {
+    color: white;
+    font-size: 100px;
+}
